@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm&Table</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="logo" style="display: flex; justify-content: space-between; align-items: center;">
+        <a href="main.html"><img src="img/FarmTable.jpg" height="100px"></a>
+        <a href="cart.html">
+            <button class="CartIcon" data-count="0">🛒</button>
+        </a>
+    </header>
+    <section>
+        <img src="img/banner.png" width="100%">
+    </section><br>
+    <section>
+        <div style="position: relative; background-color: #eff8fb; padding: 20px; border-radius: 30px;">
+            <div style="margin-left: 50px;">
+                <h3>실시간 배송조회</h3>
+                <p>주문하신 상품의 배송상태와 신선도를 확인하세요</p>
+            </div>
+            <a href="delivery.html">
+                <button class="delivery-btn" style="margin-right: 50px; margin-top: 30px;">
+                    배송조회
+                </button>
+            </a>
+        </div>
+    </section><br>
+    <section>
+        <div style="text-align: center;">
+                <h2 style="margin-bottom: 0;">명절 신상품 구경해보세요~</h2>
+                <p style="margin-top: 0;">신선하지 않을 시 100% 환불!</p>
+        </div> 
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem;" class="product-grid">  
+            <div class="product-card">
+                <div style="border-radius: 0.5rem;">
+                    <div style="position: relative;">
+                        <div class="product">
+                            <img src="img/persimmon.jpg" alt="王홍시">
+                            <button class="CartBtn"
+                                data-name="王홍시"
+                                data-price="34500"
+                                data-img="img/persimmon.jpg">
+                                🛒
+                            </button> 
+                        </div>
+                        <div> 
+                            <div>
+                                <h3 style="margin-bottom: 0;">한입 베어 물면 사르르~</h3>
+                                <h3 style="margin-top: 0;">녹는 자연산 王홍시</h3>
+                            </div>
+                            <div>
+                                <span style="color: gray;">AI예측가 ~40,000</span><br>
+                                <span style="color: red;"><b>34,000</b></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="product-card">     
+                <div style="border-radius: 0.5rem;">
+                    <div style="position: relative;">
+                        <div class="product">
+                            <img src="img/chestnuts.jpg" alt="가을의 별미, 밤">
+                            <button class="CartBtn"
+                                data-name="가을의 별미, 밤"
+                                data-price="11700"
+                                data-img="img/chestnuts.jpg">
+                                🛒
+                            </button> 
+                        </div>
+                        <div> 
+                            <div>
+                                <h3 style="margin-bottom: 0;">구워도 삶아도 맛있는</h3>
+                                <h3 style="margin-top: 0;">가을의 진짜 별미, 밤</h3>
+                            </div>
+                            <div>
+                                <span style="color: gray;">AI예측가 ~20,000원</span><br>
+                                <span style="color: red;"><b>11,700원</b></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card"> 
+                <div style="border-radius: 0.5rem;">
+                    <div style="position: relative;">
+                        <div class="product">
+                            <img src="img/pear.jpg" alt="제철 배">
+                            <button class="CartBtn"
+                                data-name="제철 배"
+                                data-price="72000"
+                                data-img="img/pear.jpg">
+                                🛒
+                            </button> 
+                        </div>
+                        <div> 
+                            <div>
+                                <h3 style="margin-bottom: 0;">커서 더 맛있는 가을 선물</h3>
+                                <h3 style="margin-top: 0;">달콤한 제철 배</h3>
+                            </div>
+                            <div>
+                                <span style="color: gray;">AI예측가 ~15,000원</span><br>
+                                <span style="color: red;"><b>7,200원</b></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div style="text-align: center;">
+                <p>명절 신상품 더보기 >></p>
+        </div><br>
+    </section>
+    <section>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1.5rem;" class="product-grid">          
+            <div style="border-radius: 0.5rem;" class="product-card">
+                <div style="position: relative;">
+                    <div class="product">
+                        <img src="img/tomatoes.jpg" alt="건강 간식 토마토">
+                        <button class="CartBtn"
+                            data-name="건강 간식 토마토"
+                            data-price="7600"
+                            data-img="img/tomatoes.jpg">
+                            🛒
+                        </button> 
+                    </div>
+                    <div> 
+                        <div>
+                            <h3 style="margin-bottom: 0;">아삭, 탱글, 달콤</h3>
+                            <h3 style="margin-top: 0;">건강 간식으로 딱! 토마토</h3>
+                        </div>
+                        <div>
+                            <span style="color: gray;">AI예측가 ~8,000원</span><br>
+                            <span style="color: red;"><b>7,600원</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-radius: 0.5rem;" class="product-card">
+                <div style="position: relative;">
+                    <div class="product">
+                        <img src="img/sweetpumpkin.jpg" alt="부드러운 단호박">
+                        <button class="CartBtn"
+                            data-name="부드러운 단호박"
+                            data-price="8700"
+                            data-img="img/sweetpumpkin.jpg">
+                            🛒
+                        </button> 
+                    </div>
+                    <div> 
+                        <div>
+                            <h3 style="margin-bottom: 0;">부드러운 달콤함</h3>
+                            <h3 style="margin-top: 0;">아이들이 좋아하는 단호박</h3>
+                        </div>
+                        <div>
+                            <span style="color: gray;">AI예측가 ~10,000원</span><br>
+                            <span style="color: red;"><b>8,700원</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-radius: 0.5rem;" class="product-card">
+                <div style="position: relative;">
+                    <div class="product">
+                        <img src="img/carrots.jpg" alt="신선 당근">
+                        <button class="CartBtn"
+                            data-name="신선 당근"
+                            data-price="5200"
+                            data-img="img/carrots.jpg">
+                            🛒
+                        </button> 
+                    </div>
+                    <div> 
+                        <div>
+                            <h3 style="margin-bottom: 0;">주스, 샐러드, 간식까지</h3>
+                            <h3 style="margin-top: 0;">다용도 신선 당근</h3>
+                        </div>
+                        <div>
+                            <span style="color: gray;">AI예측가 ~6,000원</span><br>
+                            <span style="color: red;"><b>5,200원</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-radius: 0.5rem;" class="product-card">
+                <div style="position: relative;">
+                    <div class="product">
+                        <img src="img/grapes.jpg" alt="영천 포도">
+                        <button class="CartBtn"
+                            data-name="영천 포도"
+                            data-price="15800"
+                            data-img="img/grapes.jpg">
+                            🛒
+                        </button> 
+                    </div>
+                    <div> 
+                        <div>
+                            <h3 style="margin-bottom: 0;">과즙이 팡팡!</h3>
+                            <h3 style="margin-top: 0;">씨없는 영천 포도</h3>
+                        </div>
+                        <div>
+                            <span style="color: gray;">AI예측가 ~17,800원</span><br>
+                            <span style="color: red;"><b>15,800원</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-radius: 0.5rem;" class="product-card">
+                <div style="position: relative;">
+                    <div class="product">
+                        <img src="img/bananas.jpg" alt="바나나">
+                        <button class="CartBtn"
+                            data-name="바나나"
+                            data-price="7650"
+                            data-img="img/bananas.jpg">
+                            🛒
+                        </button> 
+                    </div>
+                    <div> 
+                        <div>
+                            <h3 style="margin-bottom: 0;">바나나 먹으면 나한테</h3>
+                            <h3 style="margin-top: 0;">바나나?</h3>
+                        </div>
+                        <div>
+                            <span style="color: gray;">AI예측가 ~9,200원</span><br>
+                            <span style="color: red;"><b>7,650원</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-radius: 0.5rem;" class="product-card">
+                <div style="position: relative;">
+                    <div class="product">
+                        <img src="img/cucumber.jpg" alt="아삭한 오이">
+                        <button class="CartBtn"
+                            data-name="아삭한 오이"
+                            data-price="3900"
+                            data-img="img/cucumber.jpg">
+                            🛒
+                        </button> 
+                    </div>
+                    <div> 
+                        <div>
+                            <h3 style="margin-bottom: 0;">자연 그대로의 아삭함</h3>
+                            <h3 style="margin-top: 0;">상큼하고 커다란 오이</h3>
+                        </div>
+                        <div>
+                            <span style="color: gray;">AI예측가 ~4,700원</span><br>
+                            <span style="color: red;"><b>3,900원</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
